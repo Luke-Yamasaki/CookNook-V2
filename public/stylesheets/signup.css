@@ -1,0 +1,91 @@
+* {
+    font-family: din-2014;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    width: 800px;
+    height: 680px;
+    border-radius: 40px;
+}
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+    border-left: 4px dashed rgba(131, 131, 131, 0.5);
+    padding-left: 1.25vw;
+    justify-content: center;
+    align-items: space-between;
+    width: 13.5vw;
+    height: 100%;
+}
+
+#logo-img-signup {
+    width: 15vw;
+    height: 10vh;
+    background-image: url("../Brand Assets/logo/CookNook Logo - Red.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0.5vh;
+}
+
+.signup-errors {
+    color:rgba(184, 38, 37);
+    margin-top: 10px;
+    margin-bottom: 2px;
+    list-style-type: square;
+}
+
+
+#signup-words {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 4px;
+    border-bottom: 1px grey solid;
+    width: 14.75vw;
+    margin-top: -1vh;
+}
+
+.space {
+  margin: 5px;
+}
+
+.signup-button {
+    background-color: rgba(184, 38, 37, 0.5);
+    border-radius: 10px;
+    height: 30px;
+    width: 103px;
+    color: white;
+    border: 1px solid rgba(184, 38, 37, 0);
+    transition-duration: .15s;
+    letter-spacing: 0.5px;
+}
+  
+.signup-button:hover {
+    background-color: rgba(184, 38, 37, 1);
+}
+
+.demo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    background-color: rgba(247, 147, 30, 0.75);
+    border-radius: 10px;
+    height: 28px;
+    width: 78px;
+    color: white;
+    border: 1px solid rgba(184, 38, 37, 0);
+    transition-duration: .15s;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+  
+.demo-button:hover {
+    background-color: rgba(247, 147, 30, 1);
+}

@@ -1,0 +1,11 @@
+#homepage-container {
+    display: flex;
+}
+
+h1 {
+    color: #555555;
+}
+
+#q-title {
+    z-index: 1;
+}

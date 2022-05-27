@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  div#topics-page
+    div#topics-card-container
+      each topic in topics
+        div#card
+          div.banner-box
+            div(id=`banner-${topic.id}`)
+          div#image-block
+            a(href=`/topics/${topic.id}` id=`square-${topic.id}`)
+            a(href=`/topics/${topic.id}` id='topic-link')=topic.name
+            p(id="topic-text") For those looking to find questions about #{topic.name}!

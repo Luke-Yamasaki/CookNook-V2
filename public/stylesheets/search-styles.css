@@ -1,0 +1,230 @@
+#search-page {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  width: 100vw;
+  min-height: 100vh;
+  overflow: scroll;
+  padding-top: 1.6vh;
+}
+
+#results-feed {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#results-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:20vw;
+  height: 3vh;
+  margin-bottom: 3px;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#results {
+  font-family: din-2014;
+  font-weight: 400;
+  font-size: 15px;
+  color:rgb(0, 0, 0);
+  padding: 0px 0px 0px 10px;
+}
+
+#search-words {
+  font-family: din-2014;
+  font-weight: 700;
+  font-size: 15px;
+  color:rgb(0, 0, 0);
+  padding: 0px 0px 0px 4px;
+}
+
+#topics-container-s {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width:20vw;
+  height: auto;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#topic-name {
+  font-family: din-2014;
+  font-weight: 700;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.5);
+  padding: 0px 0px 0px 10px;
+  text-decoration: none;
+}
+
+#vegetable-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic1.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#tofu-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic2.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#pasta-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic3.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#chicken-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic4.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#beef-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic5.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#pork-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic6.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#fish-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic7.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#shellfish-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic8.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#grilling-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic9.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#dessert-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/square/topic10.png");
+  background-size: contain;
+  border-radius: 5px;
+  margin-left: 0.25vw;
+}
+
+#questions-container-s {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:20vw;
+  height: auto;
+  background-color: #F3F3F3;
+  box-sizing: content-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0px;
+}
+
+#question-div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 20vw;
+  height: 8vh;
+  border-bottom: solid rgba(0, 0, 0, 0.25) 1px;
+  background-color: #F3F3F3;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+#quesiton-name {
+  font-family: din-2014;
+  font-weight: 400;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.5);
+  padding: 0px 0px 0px 10px;
+}
+
+#error {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 19.9vw;
+  height: auto;
+  background-color: #F3F3F3;
+  box-sizing: content-box;
+  overflow: hidden;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#error-msg {
+  font-family: din-2014;
+  font-weight: 400;
+  font-size: 17px;
+  color:rgba(0, 0, 0, 1);
+  padding: 0px 0px 0px 10px;
+}
+
+#broken-plate {
+  width: 23vw;
+  height: 28vh;
+  background-image: url('../images/no-search-result.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(85%);
+}
+
+#question-name {
+  color: rgba(184, 38, 37, 1);
+}
+
+#nothing {
+  height: 0px;
+}
